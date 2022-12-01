@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  API_URL: "https://tweetapibyvishu.azurewebsites.net/api/v1.0/tweets"
+  API_URL: "https://tweetapplication.azurewebsites.net/api/v1.0/tweets"
 };
 
 /*

@@ -60,20 +60,7 @@ imageUrl: string ='';
 
     
     //return formData;
-    /*this.http.post(environment.API_URL +'/register/upload', formData, {reportProgress: true, observe: 'events'})
-      .subscribe({
-        next: (event:any) => {
-        /*if (event.type === HttpEventType.UploadProgress)
-          this.progress = Math.round(100 * event.loaded / event.total);
-        else if (event.type === HttpEventType.Response) {
-          this.message = 'Upload success.';
-          this.onUploadFinished.emit(event.body);
-        }
-        this.message = 'Upload success.';
-        this.onUploadFinished.emit(event.body);
-      },
-      error: (err: HttpErrorResponse) => console.log(err)
-    });*/
+    
   }
 
   register(){
